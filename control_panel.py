@@ -7,7 +7,6 @@ class Device:
         self.device_name=device_name 
         self.status='off'
 
-        print(f'Device '{self.device_name}' of type '{self.device_type}' added successfuully in '{self.location}' under group '{self.group}'.')
 
 
     def turn_on(self):
@@ -18,7 +17,7 @@ class Device:
     def turn_off(self):
         print('off')
         self.status='off'
-        #code ejra mishe 
+        print(f"off in '{self.status}' done successfully")
        
         
     def get_status(self):
