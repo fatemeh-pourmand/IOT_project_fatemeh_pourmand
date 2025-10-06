@@ -123,13 +123,10 @@ class control_panel:
             
             
     def turn_off_in_group(self,group_name):
-        '''
-        biad dakhele oon group_name doone doone ro
-        khamoosh kone 
+     if group_name in self groups:
+        for device in self.groups[group_name]:
+            device.turn_off()
         
-        
-        '''
-        pass
     
     
     def turn_on_all(self):
