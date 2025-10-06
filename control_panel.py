@@ -13,7 +13,7 @@ class Device:
     def turn_on(self):
         print('Done!!!')
         self.status='on'
-        #--_.code ejra mishe
+        print(f"Done {self.status} successfully")
 
     def turn_off(self):
         print('off')
