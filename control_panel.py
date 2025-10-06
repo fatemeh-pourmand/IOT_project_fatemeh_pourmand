@@ -78,10 +78,10 @@ class control_panel:
             new_device=Device(location,group_name,device_type,device_name)
             
             self.groups[group_name].append(new_device)
-            print('///////bamofghtia')
+            print(f"Device '{device_name}' of type '{device_type}' successfully appended to group '{group_name}'.")
             
         else:
-            print('agha in esm vojod ndre') #...
+            print(f"cannot add device. Group'{group_name}' dose not exist.")
         
         
         
