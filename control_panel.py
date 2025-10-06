@@ -7,6 +7,8 @@ class Device:
         self.device_name=device_name 
         self.status='off'
 
+        print(f'Device '{self.device_name}' of type '{self.device_type}' added successfuully in '{self.location}' under group '{self.group}'.')
+
 
     def turn_on(self):
         print('Done!!!')
