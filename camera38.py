@@ -1,7 +1,6 @@
-سلام استاد بری camera یه کلاس بنویسم؟و فانکشن بسازم؟'''
-اصلا camera 38 رو ساپورت کنه یعنی چی میخواید 
-
-
+salam ostad camera 38 ro suport kone tani ham class mkhaid ham function? 
+exmple:lapm,door,home,light, ...ye camera ham mikhaid bale??
+ya dar class drvice function camera biaram ke 38 ro support kone?
 '''
 
 class Device:
