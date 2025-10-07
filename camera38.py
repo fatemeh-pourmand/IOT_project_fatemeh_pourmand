@@ -1,7 +1,4 @@
-salam ostad camera 38 ro suport kone yani ham class mkhaid ham function? 
-exmple:lapm,door,home,light, ...ye camera ham mikhaid bale??
-ya dar class drvice function camera biaram ke 38 ro support kone?
-'''
+
 
 class Device:
     
