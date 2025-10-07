@@ -135,21 +135,14 @@ class control_panel:
     
     
     def turn_on_all(self):
-        '''
-        tamame device haro roshan kone
-        too livign toome parking hgarjaa
-        hamaroo roshan kone
-        '''
-        pass
-    
+        for device in self.devices:
+            device.turn_on()
+            print('all devices turn on')
     
     def turn_off_all(self):
-        '''
-        hamaro khamoosh kone
-        '''
-        
-        
-        pass
+        for device in self.devices:
+            device.turn_of()
+            print('all devices turn off')
     
     
     def get_status_in_group(self,group_name):
