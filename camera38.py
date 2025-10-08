@@ -5,7 +5,7 @@
 #lights & doors connect to pin 17,27 ,camera??? i dont have anything
 #i need a condition
 #i realized devices has ID or special pin with special condition and id number
-
+#now we going to functions turn_on, turn_off
 class Device:
     
     def __init__(self,location,group,device_type,device_name,pin):
