@@ -1,4 +1,8 @@
-
+#smart home system=control=door,lapms,lightsand now camera
+#('device_type='camera) every devive has a =place,group,kind,name,pin
+#when said camera use 38 =mean pin38
+#lights & doors connect to pin 17,27 ,camera??? i dont have anything
+#i need a condition
 
 class Device:
     
@@ -34,6 +38,9 @@ class Device:
             
         elif self.device_type=='doors':
             GPIO.setup(27,GPIO.OUT)
+
+        elif self.device_type=='camera' :
+            GPIO.setup(38,GPIO.OUT)
             
 
     def turn_on(self):
@@ -61,10 +68,10 @@ class Device:
             return False
         
         
-#a1=..... (class --> device az tarighe ketabkhone)
+camera1 = Device('home', 'living_room', security_cam', 'pin_38')
 
 a1=Device('home','room','lights','lamps1001','w328376231863816326216')
 
-a1.turn_on()
+camera1.turn_on()
 
-a1.turn_off()
+camera1.turn_off()
