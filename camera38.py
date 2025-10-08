@@ -68,7 +68,7 @@ class Device:
             return False
         
         
-camera1 = Device('home', 'living_room', security_cam', 'pin_38')
+camera1 = Device('home', 'living_room', 'security_cam', 'pin_38')
 
 a1=Device('home','room','lights','lamps1001','w328376231863816326216')
 
