@@ -6,6 +6,17 @@
 #i need a condition
 #i realized devices has ID or special pin with special condition and id number
 #now we going to functions turn_on, turn_off
+
+
+'''
+
+APM:
+salam , camera roye 38 gharar gereft va dorost hast , moafagh bashiid
+
+'''
+
+
+
 class Device:
     
     def __init__(self,location,group,device_type,device_name,pin):
