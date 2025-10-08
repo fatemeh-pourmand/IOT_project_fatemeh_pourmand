@@ -1,9 +1,11 @@
+#
 #smart home system=control=door,lapms,lightsand now camera
 #('device_type='camera) every devive has a =place,group,kind,name,pin
 #when said camera use 38 =mean pin38
 #lights & doors connect to pin 17,27 ,camera??? i dont have anything
 #i need a condition
 #i realized devices has ID or special pin with special condition and id number
+
 class Device:
     
     def __init__(self,location,group,device_type,device_name,pin):
