@@ -1,4 +1,4 @@
-#i wrote for myself so i wouldnt forget**
+#
 #smart home system=control=door,lapms,lightsand now camera
 #('device_type='camera) every devive has a =place,group,kind,name,pin
 #when said camera use 38 =mean pin38
