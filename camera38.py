@@ -17,6 +17,8 @@ salam , camera roye 38 gharar gereft va dorost hast , moafagh bashiid
 
 
 
+
+
 class Device:
     
     def __init__(self,location,group,device_type,device_name,pin):
