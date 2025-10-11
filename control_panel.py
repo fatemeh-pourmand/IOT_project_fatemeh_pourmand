@@ -5,8 +5,8 @@
 Notes:
 #at the first go to this function and complete it --->> def get_status_in_group ...with for & condition.. 
 #pay attention == all_devicess, group_name,print(f"
-#now..go to another function -->>  def get_status_in_device_type.= i created empty Dic then for in all devices (self) after that chose device type and did  key value,finally return status  
-        
+#..go to another function -->>  def get_status_in_device_type.= i created empty Dic then for in all devices (self) after that chose device type and did  key value,finally return status  
+# def sensor...is loading ...  
 
 Comments & questions:
 
@@ -168,9 +168,8 @@ class control_panel:
     
     #tabe ee bename create_device???
     
-    def create_sensor(self):
+    def create_sensor(self,name,sensore_type, status):
              
-        pass
     
     def create_multiple_sensor(self):
         pass
