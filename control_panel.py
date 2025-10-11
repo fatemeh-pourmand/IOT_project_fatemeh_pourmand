@@ -3,7 +3,7 @@
 
 
 Notes:
-#at the first go to this function and complete it  def get_status_in_group ...loading....it 
+#at the first go to this function and complete it --->> def get_status_in_group ...with for & condition.. 
 #pay attention == all_devicess, group_name,print(f"
 
 
@@ -154,19 +154,13 @@ class control_panel:
             print('all devices turn off')
     
     
-    def get_status_in_group(self,group_name):
-        '''
-        be ezaye device haye tooye masalan felan group
-        living_room --> bebine roshanan ya khamoshan
-        porint kone
+    def get_status_in_group(self,group_name): 
         
-        a.get_status_in_group('living_room')
-        
-        device {name} is on
-        ... ..  .. ois off
-        .. .. .. is on
-        '''
-        
+        for device in self.devices:
+            if device.group == group_name:
+                print(f"Device {device.name} is {device.status}")
+
+            
     def get_status_in_device_type(self,dvice_type):
         
         '''
