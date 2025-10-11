@@ -5,8 +5,8 @@
 Notes:
 #at the first go to this function and complete it --->> def get_status_in_group ...with for & condition.. 
 #pay attention == all_devicess, group_name,print(f"
-
-
+#now..go to another function -->>  def get_status_in_device_type.= i cread empty Dic then for in all devices (self) after that chose device type and did  key value,finally return status  
+        
 
 Comments & questions:
 
@@ -162,22 +162,11 @@ class control_panel:
 
             
     def get_status_in_device_type(self,dvice_type):
-        
-        '''
-        varaye kole devicd haee k hasan
-        bere device_typeshono check kone
-        
-        fght lamparo bere check kone
-        
-        lamps -->lampa
-        doors --L> fght doora
-        (too ch groupi , device_type)
-        
-        statuseshono bede
-
-        
-        '''
-        pass
+        statuse_dict = {}
+        for device in self.devices:  
+        if device.device_type == device_type: 
+            status_dict[device.name] = device.status
+    return status-dict
     
     
     #tabe ee bename create_device???
