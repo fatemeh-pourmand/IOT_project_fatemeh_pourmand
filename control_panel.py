@@ -3,7 +3,7 @@
 
 
 Notes:
-#at the first go to this function and complete it  def get_status_in_group it 
+#at the first go to this function and complete it  def get_status_in_group ...loading....it 
 #pay attention == all_devicess, group_name,print(f"
 
 
