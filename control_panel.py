@@ -123,11 +123,8 @@ class control_panel:
         
         
     def trun_on_in_group(self,group_name):
-        
         if group_name in self.groups:
-            
             devices=self.get_devices(group_name)
-            
             for device in devices:
                 device.turn_on()
             
@@ -172,6 +169,7 @@ class control_panel:
     #tabe ee bename create_device???
     
     def create_sensor(self):
+             
         pass
     
     def create_multiple_sensor(self):
