@@ -5,7 +5,7 @@
 #lights & doors connect to pin 17,27 ,camera??? i dont have anything
 #i need a condition
 #i realized devices has ID or special pin with special condition and id number
-#now we going to functions turn_on, turn_off
+
 
 
 '''
@@ -13,8 +13,7 @@
 APM:
 salam , camera roye 38 gharar gereft va dorost hast , moafagh bashiid
 
-'''salam ,ostad,mamnonam az shoma va tadris
-alan (turn_on , turn_off) ham complete the function.
+'''salam ,ostad,mamnonam az shoma va tadris alii
 
 
 
