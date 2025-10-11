@@ -5,7 +5,7 @@
 Notes:
 #at the first go to this function and complete it --->> def get_status_in_group ...with for & condition.. 
 #pay attention == all_devicess, group_name,print(f"
-#now..go to another function -->>  def get_status_in_device_type.= i cread empty Dic then for in all devices (self) after that chose device type and did  key value,finally return status  
+#now..go to another function -->>  def get_status_in_device_type.= i created empty Dic then for in all devices (self) after that chose device type and did  key value,finally return status  
         
 
 Comments & questions:
