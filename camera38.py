@@ -13,7 +13,8 @@
 APM:
 salam , camera roye 38 gharar gereft va dorost hast , moafagh bashiid
 
-'''
+'''salam ,ostad,mamnonam az shoma va tadris
+alan (turn_on , turn_off) ham complete the function.
 
 
 
