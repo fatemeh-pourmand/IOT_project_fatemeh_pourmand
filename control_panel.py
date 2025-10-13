@@ -111,7 +111,7 @@ class control_panel:
             
         else:
             
-            print('....')
+            print(f"group '{group_name}' not found.cannot create {device_number} devices.")
             
             
             
@@ -129,7 +129,7 @@ class control_panel:
                 device.turn_on()
             
         else:
-            print('....') 
+            print(f" group'{group_name}'not found.") 
             
             
             
