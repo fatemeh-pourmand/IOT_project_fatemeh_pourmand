@@ -9,7 +9,7 @@ Notes:
 # def sensor...is loading ...  
 
 Comments & questions:
-
+salam ostad, line 169 -->>(#tabe ee bename create_device???) yani soal porsidin? man besazam? 
 '''
 
 class Device:
