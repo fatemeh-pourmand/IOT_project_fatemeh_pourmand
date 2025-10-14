@@ -10,6 +10,13 @@ Notes:
 
 Comments & questions:
 salam ostad, line 169 -->>(#tabe ee bename create_device???) yani soal porsidin? man besazam? 
+
+
+APM:
+salam kheyr in commente dakheel class hast k migan
+b tabeye create_device rojoo konid, shabihesho besazid ama bejaye Device, Bayad sensor sakhte beshe
+hala talasheto kon , man sar miznm niaz bashe edit ya ezaf mikonm
+moafagh bashi
 '''
 
 class Device:
