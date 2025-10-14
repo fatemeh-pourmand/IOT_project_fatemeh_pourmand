@@ -13,7 +13,13 @@
 APM:
 salam , camera roye 38 gharar gereft va dorost hast , moafagh bashiid
 
-'''salam ,ostad,mamnonam az shoma va tadris alii
+
+'salam ,ostad,mamnonam az shoma va tadris alii
+
+
+APM:
+salam khahesh mikonam nazare lotfete
+'''
 
 
 
