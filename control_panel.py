@@ -18,7 +18,7 @@ b tabeye create_device rojoo konid, shabihesho besazid ama bejaye Device, Bayad 
 hala talasheto kon , man sar miznm niaz bashe edit ya ezaf mikonm
 moafagh bashi
 '''
-
+merci ostad baraye ye functyion(be tore kolli) def function_name va retuen baraye ejraye on tabe( khoruji gereftan)
 class Device:
     
     def __init__(self,location,group,device_type,device_name):
