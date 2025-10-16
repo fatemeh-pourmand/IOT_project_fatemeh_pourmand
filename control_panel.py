@@ -181,7 +181,13 @@ class control_panel:
              self.status= status
         return f" sensor {name} created successfulluy
         
-    def create_multiple_sensor(self):
-        pass
+    def create_multiple_sensor(self, sensor_list):
+         created_sensors = []
+         for s in sensor_list:
+         sensor = self.create_sensor(s["name"], s["type"], s["status"])
+         created_sensors.append(sensor)
+      return created_sensor
+    
+        
     
 
