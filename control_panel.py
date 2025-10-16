@@ -187,7 +187,7 @@ class control_panel:
          for s in sensor_list:
          sensor = self.create_sensor(s["name"], s["type"], s["status"])
          created_sensors.append(sensor)
-      return created_sensor
+      return created_sensors
     
         
     
