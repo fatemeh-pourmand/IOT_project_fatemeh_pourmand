@@ -18,7 +18,7 @@ b tabeye create_device rojoo konid, shabihesho besazid ama bejaye Device, Bayad 
 hala talasheto kon , man sar miznm niaz bashe edit ya ezaf mikonm
 moafagh bashi
 '''
-merci ostad baraye ye functyion(be tore kolli) def function_name va retuen baraye ejraye on tabe( khoruji gereftan)
+merci ostad 
 class Device:
     
     def __init__(self,location,group,device_type,device_name):
@@ -173,11 +173,14 @@ class control_panel:
     return status-dict
     
     
-    #tabe ee bename create_device???
+
     
     def create_sensor(self,name,sensore_type, status):
-             
-    
+             self.name= name
+             self.sensor_type= sensor_type
+             self.status= status
+        return f" sensor {name} created successfulluy
+        
     def create_multiple_sensor(self):
         pass
     
