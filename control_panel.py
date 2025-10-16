@@ -7,6 +7,7 @@ Notes:
 #pay attention == all_devicess, group_name,print(f"
 #..go to another function -->>  def get_status_in_device_type.= i created empty Dic then for in all devices (self) after that chose device type and did  key value,finally return status  
 # def sensor...is loading ...  
+#in def multiple== i used list =code is cleaner,shorter,parameters all togheder (dont need writ one by one) and for.
 
 Comments & questions:
 salam ostad, line 169 -->>(#tabe ee bename create_device???) yani soal porsidin? man besazam? 
